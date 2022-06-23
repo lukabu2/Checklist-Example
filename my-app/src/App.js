@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import TopNavigation from "./components/TopNavigation";
+import DropdownButton from "./components/DropdownButtonLocation";
+import FloatingButton from "./components/FloatingButton";
+import BottomNavigation from "./components/BottomNavigation";
+import React from "react";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import ListOfItems from "./components/ListOfItems";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edited <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <TopNavigation/>
+      <DropdownButton/>
+      <ListOfItems/>
+      <FloatingButton/>
+      <BottomNavigation/>
     </div>
   );
 }
-
 export default App;
