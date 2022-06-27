@@ -4,7 +4,7 @@
 
     function CircularPBar() {
         return ( 
-            <ProgressBar value={20}/>
+            <ProgressBar value={30}/>
             
          );
     }
