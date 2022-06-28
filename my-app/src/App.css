@@ -1,3 +1,12 @@
 .bg-NavbarColor{
   background-color: #ff4d02 ;
 }
+.dropdown-menu.show{
+  inset: 0px auto auto -56px !important;
+  height: 30em;
+  overflow-x: scroll;
+}
+
+.dropdown-toggle{
+  border-radius: 15px !important;
+}
